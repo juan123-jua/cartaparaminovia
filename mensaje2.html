@@ -1,0 +1,85 @@
+ <style>
+        body {
+            background-color: #1c1c1c;
+            color: #f5f5f5;
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #333;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(255, 182, 193, 0.6);
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before, .card::after {
+            content: '❤️';
+            font-size: 5em;
+            color: rgba(255, 105, 180, 0.3);
+            position: absolute;
+            animation: float 3s ease-in-out infinite;
+        }
+        .card::before {
+            top: -10px;
+            left: -10px;
+        }
+        .card::after {
+            bottom: -10px;
+            right: -10px;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(-10px); }
+            50% { transform: translateY(10px); }
+        }
+        .card h1 {
+            color: #ff6699;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .card p {
+            font-size: 1em;
+            line-height: 1.5em;
+            color: #ffcccc;
+            margin: 0 10px;
+        }
+        .card img {
+            border-radius: 50%;
+            margin-top: 20px;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 2px solid #ff6699;
+            box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.5);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Para Mi Amor ❤️</h1>
+        <p>
+            Mi amor, sé que ajá ahora estás malita por cositas pero hoy quiero que sepas que estoy aquí para ti, hoy y siempre. A veces la vida nos pone retos que parecen muy grandes, pero quiero que recuerdes que tienes toda mi confianza, mi apoyo y todo mi amor. Lo que importa realmente no son esas pruebas mija, sino las ganas que tienes de luchar y de crecer. Yo sé que eres capaz de lograr todo lo que te propongas, porque eres increíblemente fuerte y valiosa , eres la mas linda.
+        </p>
+        <p>
+            Quiero que sepas que esas pruebas no define quién eres, ni determina todo lo que puedes llegar a hacer. Eres mucho más que eso, y yo creo en ti y en tus sueños. mi amor y por lo otro que ajá tú sabes, quiero decirte que  yo estoy aquí para apoyarte, para darte ánimos y para estar a tu lado, pase lo que pase.
+        </p>
+        <p>
+            Mi amor por ti es muy bonito, y cada día me siento más afortunado de tenerte en mi vida. Siempre voy a estar aquí para ti, para que nunca te sientas sola. Tú eres increíble, y nunca olvides que estoy a tu lado para ayudarte a levantar cuando lo necesites.
+        </p>
+        <p>Te amo mucho, y siempre voy a estar para ti.</p>
+        
+           <img src="angie.jpeg" >
+           <h2>
+            <a href="mensaje3.html" class="next-button">Siguiente</a> </h2>
+    </div>
+</body>
+</html>
